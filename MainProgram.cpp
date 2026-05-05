@@ -142,7 +142,7 @@ IntArray::~IntArray() {
     //         Notify Tracker that an object was destroyed
 
 delete[] data;
-Tracker::objectCreated();
+Tracker::objectDestroyed();
 }
 
 // Copy Constructor
